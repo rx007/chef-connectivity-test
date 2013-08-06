@@ -16,7 +16,11 @@ Usage
 1. Move the `check` script into your `chef-repo`
 1. Execute the script from a terminal from within your chef-repo:
 
-        ./check
+        $ /opt/chef/embedded/bin/ruby check
+
+    If you are using Windows, your path is slightly different:
+
+        $ C:/opscode/chef/embedded/bin/ruby.exe check
 
 This will test some common endpoints when working with Chef, such as:
 
