@@ -203,12 +203,12 @@ module Training
     end
 
     banner 'Resolving DNS for "manage.opscode.com"'
-    def hosted_chef_dns
+    def enterprise_chef_dns
       !Resolv::DNS.new.getresources('manage.opscode.com', Resolv::DNS::Resource::IN::A).empty?
     end
 
-    banner 'Connecting to Hosted Chef'
-    def hosted_chef_connect
+    banner 'Connecting to Enterprise Chef, Hosted'
+    def enterprise_chef_connect
       ping('manage.opscode.com')
     end
 

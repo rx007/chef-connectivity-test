@@ -6,7 +6,7 @@ This repo contains a small Ruby script that can be used to test your connection 
 Assumptions
 -----------
 - You are using Opscode's omnibus installer at the default location
-- You have successfully registered for Hosted Chef and downloaded your Starter Kit
+- You have successfully registered for Enterprise Chef and downloaded your Starter Kit
 - **You are running these commands from inside your Starter Kit chef-repo**
 
 
