@@ -16,7 +16,8 @@ Usage
 1. Move the `check` script into your `chef-repo`
 1. Execute the script from a terminal from within your chef-repo:
 
-        $ /opt/chef/embedded/bin/ruby check
+        (chef)   $ /opt/chef/embedded/bin/ruby check
+        (chefdk) $ /opt/chefdk/embedded/bin/ruby check
 
     If you are using Windows, your path is slightly different:
 
